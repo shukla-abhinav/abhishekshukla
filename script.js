@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Semi Qualified Chartered Accountant","Income Tax Cosultant", "GST Consultant", "Freelancer"],
+        strings: ["a Semi Qualified Chartered Accountant","an Income Tax Cosultant", "a GST Consultant", "a Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
