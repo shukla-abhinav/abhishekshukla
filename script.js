@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["a Semi Qualified Chartered Accountant","an Income Tax Cosultant", "a GST Consultant", "a Freelancer"],
+        strings: ["a Chartered Accountant","an Income Tax Cosultant", "a GST Consultant", "a Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Semi Qualified Chartered Accountant","Income Tax Cosultant", "GST Consultant", "Freelancer"],
+        strings: ["Chartered Accountants","Income Tax Cosultant", "GST Consultant", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -54,6 +54,7 @@ $(document).ready(function(){
         loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
+        
         responsive: {
             0:{
                 items: 1,
